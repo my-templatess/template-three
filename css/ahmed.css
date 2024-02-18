@@ -1388,6 +1388,11 @@ header .mega-menu .links li a i {
   padding: 20px;
   position: relative;
   opacity: 0.8;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
 }
 .stats .container .box:hover {
   opacity: 1;
